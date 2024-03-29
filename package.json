@@ -2,7 +2,10 @@
   "name": "@ecommerce-angular-nest/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "client": "nx serve angular-client",
+    "server": "nx serve nest-server"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~17.3.0",
